@@ -661,8 +661,8 @@ section.homepage-cta-banner div.homepage-cta-banner div.cta-banner-image {
 .row.homepage-portfolio {
     padding: 75px 50px;
     background-image: url(../images/4488925.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
     color: #FFF;
 }
 
