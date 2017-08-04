@@ -266,7 +266,7 @@ function zeal_jumbotron() { ?>
 
 
             <div data-stellar-background-ratio="0.5" class="zeal-parallax col-md-12 hero-banner <?php echo get_theme_mod( 'zeal_hero_background_style', 'image' ) == 'color' ? esc_attr( 'zeal-bg-img-none' ) : esc_attr( '' ); ?>"
-                style="background-color: <?php echo esc_attr( get_theme_mod( 'zeal_hero_bg_color', '#0D0D0D' ) ); ?>;
+                style="background-repeat: no-repeat; background-position: initial; background-color: <?php echo esc_attr( get_theme_mod( 'zeal_hero_bg_color', '#0D0D0D' ) ); ?>;
                     background-image: url(<?php echo esc_url( get_theme_mod( 'zeal_hero_image', get_template_directory_uri() . '/inc/images/zeal-demo.jpg' ) ); ?>)">
 
                 <div class="hero-overlay" style="background-color: <?php echo get_theme_mod( 'zeal_hero_tint_toggle', 'on' ) == 'on' ? esc_attr( get_theme_mod( 'zeal_hero_tint', 'rgba(10, 10, 10, 0.25)' ) ) : esc_attr( 'none' ); ?>">
