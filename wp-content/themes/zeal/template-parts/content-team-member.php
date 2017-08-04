@@ -46,7 +46,7 @@
         
             <div class="col-sm-<?php echo $col_1_width; ?> single-post-left">
                 
-                <a href="<?php echo has_post_thumbnail( get_the_ID() ) ? $image[0] : $image; ?>" data-lightbox="<?php the_title(); ?>">
+              <!--  <a href="<?php echo has_post_thumbnail( get_the_ID() ) ? $image[0] : $image; ?>" data-lightbox="<?php the_title(); ?>"> -->
                     
                     <?php
                         if( has_post_thumbnail( get_the_ID() ) ) : 
@@ -59,7 +59,7 @@
                         
                     <?php endif; ?>
                     
-                </a>
+              <!--  </a>    -->
                 
                 <div id="single-team-member-social">
                     
