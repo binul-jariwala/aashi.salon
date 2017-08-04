@@ -486,7 +486,7 @@ function zeal_render_footer() { ?>
         
         <div class="row footer-b">
 
-            <div class="col-md-12 wow fadeIn">
+            <div class="col-md-12">
                 <?php if ( get_theme_mod( 'zeal_footer_b_toggle', 'on' ) == 'on' ) : ?>
                 <?php get_sidebar( 'footer' ); ?>
                  <?php endif; ?>
